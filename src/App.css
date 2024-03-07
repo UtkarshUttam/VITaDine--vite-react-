@@ -1,0 +1,40 @@
+/* Add styling for HomePage */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #eee;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li {
+  font-weight: bold;
+}
+
+.switch-options {
+  display: flex;
+  gap: 10px;
+}
+
+.switch-options button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.switch-options button.active {
+  background-color: #eee;
+}
+
+.welcome-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
