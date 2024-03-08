@@ -2,10 +2,12 @@
 import React, { useState } from "react";
 import { Link, Routes, Route, Outlet } from "react-router-dom";
 import "./HomePage.css";
-import logo from "../components/media/CodeCrafters.png";
+import logo from "../assets/media/CodeCrafters.png";
 
 const MayuriPage = () => <h2>Welcome to Mayuri!</h2>;
 const UnderbellyPage = () => <h2>Welcome to Underbelly!</h2>;
+
+
 
 const HomePage = () => {
   const [selectedOption, setSelectedOption] = useState("mayuri");
